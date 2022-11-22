@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+// -*- mode: JavaScript -*-
+
+require = require('esm')(module /*, オプション*/);
+require('../src/cli').cli(process.argv);
