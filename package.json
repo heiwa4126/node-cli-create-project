@@ -1,6 +1,6 @@
 {
   "name": "@heiwa4126/create-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI to bootstrap my new projects",
   "main": "src/index.js",
   "type": "module",
@@ -18,7 +18,7 @@
     "cli",
     "create-project"
   ],
-  "author": "YOUR_AUTHOR",
+  "author": "heiwa4126",
   "license": "MIT",
   "dependencies": {
     "arg": "^5.0.2",
@@ -29,5 +29,10 @@
     "listr": "^0.14.3",
     "ncp": "^2.0.0",
     "pkg-install": "^1.0.0"
-  }
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
 }
